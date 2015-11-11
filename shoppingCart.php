@@ -1,9 +1,4 @@
-<!-------------------------------
-Course: COSC471
-Project title: 3B Online Bookstore
-Group 12: Hui Xu and Omar Ali
-Complete date: 4/6/2015
--------------------------------->
+
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
