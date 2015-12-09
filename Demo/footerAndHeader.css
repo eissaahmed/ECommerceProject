@@ -1,0 +1,46 @@
+/*Header and footer*/
+#welcome {
+	font: normal bold 20px Georgia, serif;
+	color: #ff0000;
+}
+#title {
+	font: normal bold 30px Georgia, serif;
+	color: #ffffff;
+}
+#title1 {
+	position: absolute;
+	width: 100%;
+}
+#bar {
+	background-color: #002b80;
+	color: white;
+	clear: both;
+	padding: 15px;
+	text-align: center;
+}
+#pic {
+	position: absolute;
+	/*bottom: 1px;*/
+        top: 850px;
+	width: 100%;
+	height: 250px;
+	padding-top: 35px;
+	text-align: center;
+}
+#footer {
+	position: absolute;
+	top: 1100px;
+	/*top: 500px;*/
+	width: 100%;
+	background-color: #00b8e6;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+#content {
+	position: absolute;
+	top: 110px;
+	width: 100%;
+	height: 700px;
+        overflow-y: scroll;
+}

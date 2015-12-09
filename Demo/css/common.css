@@ -1,0 +1,18 @@
+.center{width:90%;margin-left:60px; margin-right:60px;}
+BODY{background:#fff url(../images/body_bg.png) repeat-x left top;margin:0 auto;padding:0;color:#333;font-family:Arial,Verdana,Tahoma,'Trebuchet MS',sans-serif;font-size:11px}
+#navigationBar{height:46px;margin:30px 0 5px 0;font-weight:bold;line-height:46px;background:#bbc3d3 url(../images/nav_bar_bg.png) repeat-x}
+#navigationInner{width:960px;margin:0 auto}
+#navigationInner ul{float:left;margin-right:30px;list-style-type:none}
+#navigationInner li{float:left;position:relative;background:url(../images/nav_separator.png) no-repeat right center;padding:0}
+#navigationInner a:hover,#navigationInner a.navVisited:hover{display:block;color:#fff;text-decoration:none;background:url(../images/nav_hover_visited.png) repeat-x left top}
+#navigationInner li.navVisited,#navigationInner li.navVisited span.navLeftHook{background:url(../images/nav_hover_visited.png) repeat-x left -46px}
+#navigationInner span.navLeftHook{display:block;width:2px;height:46px;position:absolute;left:-2px;top:0}
+#navigationInner a:hover span.navLeftHook{background:url(../images/nav_hover_left.png) no-repeat left top;z-index:10}
+#navigationInner span.navRightHook{display:block;width:2px;height:46px;position:absolute;right:0;top:0}
+#navigationInner a:hover span.navRightHook{background:url(../images/nav_hover_right.png) no-repeat left top}
+#navigationInner ul li span.navHoverDownHook{display:block;width:6px;height:5px;position:absolute;right:50%;bottom:-5px}
+#navigationInner ul a:hover span.navHoverDownHook{background:url(../images/nav_hover_down_arrow.png) no-repeat left top}
+#navigationInner ul a{color:#fff;display:block;padding:0 25px}
+#navigationInner ul a:hover{color:#fff;text-decoration:none}
+#navigationInner form p{float:right;height:30px;margin-top:10px}
+#navigationInner form p.keywords{float:left}
